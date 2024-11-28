@@ -1,0 +1,59 @@
+<!-- MarcoA. T.L -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/headerStyle.css">
+    <link rel="stylesheet" href="../styles/enviarSolicitud.css">
+    <title>Enviar Solicitud</title>
+</head>
+<body>
+    
+    <header class="main-header">
+        <div class="logo">
+          <img src="../img/logo.jpg" alt="Logo de la página" class="img-logo"/>
+          <img src="../img/menu.svg" alt="" class="menu">
+        </div>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="../src/panel_usuario.html">Inicio</a></li>
+            <li><a href="../src/historial_pagos.html">Historial</a></li>
+            <li><a href="../src/gestion_pagos.html">Consultar Pagos</a></li>
+            <li><a href="../src/solicitud_prestamo.html">Solicitar Prestamo</a></li>
+            <li><a href="../src/soporte.html">Soporte</a></li>
+          </ul>
+        </nav>
+        <div class="login">
+          <a href="../index.html" class="btn-login"><img src="../img/iniciarSesion.svg" alt="" class="sesion"></a>
+        </div>
+      </header>
+      
+      <div class="payment-card">
+        <h2>Procesando tu pago</h2>
+        <h3 id="h3" class="h3Message">Estamos revisando su informaión. Este proceso puede tardar
+            entre 24 y 72 horas. Le notificaremos una vez completado </h3>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      
+        <div class="loading-dots">
+          <span>.</span>
+          <span>.</span>
+          <span>.</span>
+        </div>
+      
+        <div class="success-message" id="successMessage">
+          <div class="check-icon">✔</div>
+          <p>Solicitud aceptada</p>
+        </div>
+        <a href="../src/panel_usuario.html"><button class="btn-back" >Regresar</button></a>
+
+      </div>
+
+
+      
+      <script src="../js/hamburger.js"></script>
+      <script src="../js/loading.js"></script>
+</body>
+</html>
