@@ -118,9 +118,9 @@
 
 .btn-volver {
   display: inline-block;
-  margin: 1vw;
+  margin: 20px auto;
   border-radius: 5px;
-  padding: 1vw;
+  padding: 10px 20px;
   font-size: 1rem;
   color: #fff;
   background: #6c757d;
